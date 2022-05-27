@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    transition: all 2s ease;
+}
+/* topBar */
+.topBar .date{
+    background-color: #2a2a2a;
+    padding-top: 5px;
+    z-index: 99;
+}
+.topBar .date:before{
+    content: "";
+    background-color: #2a2a2a;
+    height: 100%;
+    width: 25px;
+    position: absolute;
+    top: 0;
+    -webkit-transform: skewX(-25deg);
+    transform: skewX(-25deg);
+    right: 94%;
+    z-index: 0;
+}
+.topBar .date i{
+    color: white;
+    padding-top:10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+.topBar .date .today {
+    color: white;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    font-family: 'Concert One', cursive;
+}
+.topBar .trending{
+    background-color: #f88c00;
+}
+.topBar .trending:before{
+    content: "";
+    background-color:#f88c00;
+    height: 100%;
+    width: 25px;
+    position: absolute;
+    top: 0;
+    -webkit-transform: skewX(-25deg);
+    transform: skewX(-25deg);
+    right: 90%;
+}
+.topBar .trending p{
+    color: white;
+    padding-top: 10px;
+    padding-left: 25px;
+    font-family: 'Concert One', cursive;
+}
+.topBar .trendLink{
+   padding: 10px;
+
+}
+.topBar .typed{
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 14px;
+    text-decoration: none;
+    color: #2a2a2a;
+}
+.topBar .empty{
+    background-color: #2a2a2a;
+}
+.topBar .typed:hover{
+    cursor: pointer;
+    color: #f88c00;
+}
+
+/* end tobBar */
+/* logo */
+.logoBack{
+    background-color:#f5f5f5;
+    padding: 20px;
+}
+/* end logo */
+/* navbar */
+nav{
+    background-color:#2a2a2a !important;
+    padding: 40px 10px !important;
+}
+nav .navbar-brand{
+    background-color: #f88c00;
+    padding: 10px;
+}
+nav .navbar-brand i{
+    color: white;
+    font-size: 50px;
+}
+nav ul li{
+    padding: 5px;
+}
+nav .nav-link{
+    color: white !important;
+    font-family: 'Concert One', cursive;
+}
+nav .nav-link:hover{
+    color: #f88c00 !important;
+}
+nav .nav-link:active{
+    color: #f88c00 !important;
+}
+nav .nav-link[tabindex]:focus{
+    color: #f88c00 !important;
+    outline: none;
+}
+nav .search{
+    padding-left: 70px;
+}
+
+.navbar{
+    padding: 0;
+}
+/* end nav */
+
+/* search div */
+.searchBack{
+    background-color: #f5f5f5;
+    width: 350px;
+    padding: 15px;
+    border: 1px solid gainsboro;
+    position: absolute;
+    right: 13%;
+    top:40%;
+    transition: all 2s ease;
+    display: none;
+}
+.searchBack input{
+    width: 250px;
+    padding:  5px;
+}
+.searchBack i{
+    background-color: #f88c00;
+    padding: 13px;
+}
+/* end search div */

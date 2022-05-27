@@ -1,0 +1,36 @@
+
+
+/* continue-reading*/
+body{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'EB Garamond';
+}
+#contact-us .contact{
+    background-color: white;
+    height:auto;
+    padding: 20px;
+    padding-left: 30px;
+}
+#contact-us .contact h1{
+    font-weight: bold;
+}
+#contact-us .form{
+    padding: 20px;
+}
+.mb-3, .my-3 {
+    margin-bottom: 1.5rem !important;
+}
+.form .mb-3:first-child{
+    margin-bottom:  .20rem !important;
+}
+.form .lg{
+    font-size: large;
+    font-weight: bold;
+}
+.form label span{
+    color: red;
+}
+/* end contact us */
+

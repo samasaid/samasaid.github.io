@@ -1,0 +1,104 @@
+/* styling of about-us section starts */
+body{
+  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.about-us .container{
+    padding: 15px ;
+    margin: auto;
+    background-color: white;
+}
+.about-title{
+    font-weight: 700;
+    font-size: 36px;
+    margin: -3px 0 0;
+    line-height: 1.4;
+    padding-bottom:20px ;
+}
+.about-p{
+    color:#666;
+    line-height: 1.8em;
+}
+/* styling of about-us section ends */
+
+/* styling of footer section starts */
+
+.footer .container{
+    background-color: #181818;
+    border-top: 1px solid #eaeaea;
+    font-size: 14px;
+    color: white;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 60px;
+}
+ .pt-5{
+padding-top: 0 !important;
+}
+
+.postsHeading
+{
+    position: relative;
+    margin-bottom: 28px;
+    font :700 22px/1.5 "Roboto", Verdana, sans-serif;
+   text-transform: uppercase;
+}
+.postsHeading::before
+{
+    content: "__________";
+    color: #f88c00;
+    position: absolute;
+    top:35%;
+}
+.postsHeading::after
+{
+    content: "____________";
+    color: #ccc;
+    position: absolute;
+    top:35%;
+    left:30%;
+}
+.footer-archives{
+    margin : 0 0 40px 0;
+    text-align: left;
+    
+}
+.list{
+    list-style-type: none;
+
+}
+.list li a{
+    line-height: 2.2;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+
+.fixed-footer{
+    width: 100%;
+    background-color: #464646;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+.fixed-footer a{
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.footer-but{
+    background-color:#f88c00 ;
+    border: none;
+    color: white;
+    padding: 6px 9px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 400;
+    text-align:center;
+    cursor: pointer;
+
+}
+/* styling of footer section ends */
+

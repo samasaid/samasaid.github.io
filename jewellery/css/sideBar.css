@@ -1,0 +1,74 @@
+*
+{
+    padding:0;
+    margin: 0;
+}
+
+.sideBar ul .animated{
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+.sideBar .postsHeading{
+    color:#dd3333;
+    position: relative;
+}
+.postsHeading::before
+{
+    content: "____________";
+    color: #f88c00;
+    position: absolute;
+    top:30%;
+}
+.postsHeading::after
+{
+    content: "____________";
+    color: #ccc;
+    position: absolute;
+    top:30%;
+    left:20%;
+}
+.sideBar a
+{
+    color:black;
+    font-size: 13px;
+    text-decoration: none;
+}
+.sideBar ul .animated:hover
+{
+   
+   transform: translateX(20px);
+   -webkit-transform: translateX(20px);
+   -moz-transform: translateX(20px);
+   -ms-transform: translateX(20px);
+   -o-transform: translateX(20px);
+}
+
+.sideBar ul .animated:hover a{
+    color: #f88c00;
+}
+
+.socialMedia .socialIcons img
+{
+    width:21%;
+    height: 50px;
+    padding-right: 15px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+.socialMedia .socialIcons img:hover
+{
+    transform: translate(0,-20px);
+    transition-timing-function: cubic-bezier(0.6, 0.04, 0.98, 0.335) ;
+    -webkit-transform: translate(0,-20px);
+    -moz-transform: translate(0,-20px);
+    -ms-transform: translate(0,-20px);
+    -o-transform: translate(0,-20px);
+}
